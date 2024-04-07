@@ -57,6 +57,6 @@ salary will be calculated as %50 off for the part-time user.
 Reminder
 o User need to manage (list, add, update, delete) reminders
 ▪ There are two reminder types (meeting & task) (Abstract Factory)
-o Each reminder has a date, time, summary and description fields.
+o Each reminder has a date, time, summary and description fields.                  
 o The reminder will show summary value on active windows header and 
 shake active windows along two seconds. (Observer) 

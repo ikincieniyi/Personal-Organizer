@@ -1,0 +1,11 @@
+C:\Users\zeker\Desktop\CENG2\Bahar\OOP2 Project\Personal-Organizer\src\PersonalOrganizer\bin\Debug\PersonalOrganizer.exe.config
+C:\Users\zeker\Desktop\CENG2\Bahar\OOP2 Project\Personal-Organizer\src\PersonalOrganizer\bin\Debug\PersonalOrganizer.exe
+C:\Users\zeker\Desktop\CENG2\Bahar\OOP2 Project\Personal-Organizer\src\PersonalOrganizer\bin\Debug\PersonalOrganizer.pdb
+C:\Users\zeker\Desktop\CENG2\Bahar\OOP2 Project\Personal-Organizer\src\PersonalOrganizer\obj\Debug\PersonalOrganizer.csproj.AssemblyReference.cache
+C:\Users\zeker\Desktop\CENG2\Bahar\OOP2 Project\Personal-Organizer\src\PersonalOrganizer\obj\Debug\PersonalOrganizer.Form1.resources
+C:\Users\zeker\Desktop\CENG2\Bahar\OOP2 Project\Personal-Organizer\src\PersonalOrganizer\obj\Debug\PersonalOrganizer.Properties.Resources.resources
+C:\Users\zeker\Desktop\CENG2\Bahar\OOP2 Project\Personal-Organizer\src\PersonalOrganizer\obj\Debug\PersonalOrganizer.csproj.GenerateResource.cache
+C:\Users\zeker\Desktop\CENG2\Bahar\OOP2 Project\Personal-Organizer\src\PersonalOrganizer\obj\Debug\PersonalOrganizer.csproj.CoreCompileInputs.cache
+C:\Users\zeker\Desktop\CENG2\Bahar\OOP2 Project\Personal-Organizer\src\PersonalOrganizer\obj\Debug\PersonalOrganizer.exe
+C:\Users\zeker\Desktop\CENG2\Bahar\OOP2 Project\Personal-Organizer\src\PersonalOrganizer\obj\Debug\PersonalOrganizer.pdb
+C:\Users\zeker\Desktop\CENG2\Bahar\OOP2 Project\Personal-Organizer\src\PersonalOrganizer\obj\Debug\PersonalOrganizer.SalaryCalculatorForm.resources

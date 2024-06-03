@@ -14,16 +14,26 @@ namespace PersonalOrganizer
     {
         public static string userPhoneNumber = "";
 
-        public UserForm(string phoneNumber)
+        public UserForm(string[] user)
         {
             InitializeComponent();
-            userPhoneNumber = phoneNumber;
+            userPhoneNumber = user[4];
         }
 
         private void notesButton_Click(object sender, EventArgs e)
         {
             notesForm notesForm = new notesForm();
             notesForm.Show();
+        }
+
+        private void personalInformationButton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void salaryCalculatorButton_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

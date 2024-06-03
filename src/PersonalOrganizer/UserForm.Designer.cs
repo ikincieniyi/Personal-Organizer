@@ -62,6 +62,7 @@
             this.salaryCalculatorButton.TabIndex = 2;
             this.salaryCalculatorButton.Text = "MAAŞ\r\nHESAPLAYICI";
             this.salaryCalculatorButton.UseVisualStyleBackColor = true;
+            this.salaryCalculatorButton.Click += new System.EventHandler(this.salaryCalculatorButton_Click);
             // 
             // reminderButton
             // 
@@ -80,6 +81,7 @@
             this.personalInformationButton.TabIndex = 4;
             this.personalInformationButton.Text = "PROFİLİM";
             this.personalInformationButton.UseVisualStyleBackColor = true;
+            this.personalInformationButton.Click += new System.EventHandler(this.personalInformationButton_Click);
             // 
             // UserForm
             // 

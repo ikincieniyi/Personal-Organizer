@@ -146,7 +146,7 @@ namespace PersonalOrganizer
             }
             else
             {
-                UserForm userForm = new UserForm(userPhone);
+                UserForm userForm = new UserForm(user);
                 userForm.Show();
             }
         }

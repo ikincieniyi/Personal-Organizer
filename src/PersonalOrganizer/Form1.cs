@@ -2,16 +2,22 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics.Eventing.Reader;
 using System.Drawing;
+using System.IO;
 using System.Linq;
+using System.Runtime.CompilerServices;
+using System.Security.Policy;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace PersonalOrganizer
 {
     public partial class Form1 : Form
     {
+        public string exeDirectory = AppDomain.CurrentDomain.BaseDirectory;
         public Form1()
         {
             InitializeComponent();
@@ -33,11 +39,17 @@ namespace PersonalOrganizer
             bool checkInformation = checkUserInformations(isimTextBox.Text, soyisimTextBox.Text, adresTextBox.Text, sifreTextBox.Text, sifreTekrarTextBox.Text, telNoTextBox.Text, epostaTextBox.Text);
             if(checkInformation)
             {
-                //add user to database
-                //if the user is added successfully
-                MessageBox.Show("Kayıt başarılı.");
-                KayitOlgb.Visible = false;
-                KayitOlgb.Enabled = false;
+                bool isUserSaveSucceed = saveUser(isimTextBox.Text, soyisimTextBox.Text, adresTextBox.Text, sifreTextBox.Text, telNoTextBox.Text, epostaTextBox.Text);
+                if (isUserSaveSucceed)
+                {
+                    MessageBox.Show("Kayıt başarılı.");
+                    KayitOlgb.Visible = false;
+                    KayitOlgb.Enabled = false;
+                }
+                else
+                {
+                    MessageBox.Show("Kullanıcı zaten kayıtlı.");
+                }
             }
         }
 
@@ -96,15 +108,47 @@ namespace PersonalOrganizer
                 MessageBox.Show("E-posta adresi hatalı.");
                 return false;
             }
-
             return true;
-            
-
         }
+
+        public bool saveUser(string Isim, string Soyisim, string Adres, string Sifre,string Telefon, string Mail)
+        {
+            // Check if user already exists
+            if (FindUserByPhone(Telefon) != null)
+            {
+                return false; // User already exists
+            }
+
+            //add this users to a csv file named users.csv it should be a csv file
+            using (StreamWriter sw = new StreamWriter(exeDirectory+"users.csv", true))
+            {
+                sw.WriteLine($"{Isim},{Soyisim},{Adres},{Sifre},{Telefon},{Mail},user");
+            }
+            return true;
+        }
+
+
+
 
         private void girisYapButton_Click(object sender, EventArgs e)
         {
-
+            string[] user = FindUserByPhone(girisTelNoTextBox.Text);
+            if (user == null)
+            {
+                MessageBox.Show("Kullanıcı bulunamadı.");
+                return;
+            }
+            string userPhone = user[4];
+            string userPassword = user[3];
+            if (userPassword != girisSifreTextBox.Text)
+            {
+                MessageBox.Show("Şifre hatalı.");
+            }
+            else
+            {
+                UserForm userForm = new UserForm(userPhone);
+                userForm.Show();
+            }
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -112,6 +156,33 @@ namespace PersonalOrganizer
             SalaryCalculatorForm salaryCalculatorForm = new SalaryCalculatorForm();
             salaryCalculatorForm.Show();
 
+        }
+
+
+        static string[] FindUserByPhone(string phoneNumber)
+        {
+            try
+            {
+                if (!File.Exists(AppDomain.CurrentDomain.BaseDirectory + "users.csv"))
+                {
+                    File.Create(AppDomain.CurrentDomain.BaseDirectory + "users.csv").Close();
+                }
+                string[] lines = File.ReadAllLines(AppDomain.CurrentDomain.BaseDirectory + "users.csv");
+                foreach (string line in lines)
+                {
+                    string[] parts = line.Split(',');
+                    if (parts.Length >= 7 && parts[4] == phoneNumber) // Ensure there are at least 7 parts and check phone
+                    {
+                        return parts;
+                    }
+                }
+                return null;
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show("Kullanıcılar dosyası bulunamadı.");
+                return null;
+            }
         }
     }
 }

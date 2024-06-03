@@ -9,3 +9,5 @@ C:\Users\zeker\Desktop\CENG2\Bahar\OOP2 Project\Personal-Organizer\src\PersonalO
 C:\Users\zeker\Desktop\CENG2\Bahar\OOP2 Project\Personal-Organizer\src\PersonalOrganizer\obj\Debug\PersonalOrganizer.exe
 C:\Users\zeker\Desktop\CENG2\Bahar\OOP2 Project\Personal-Organizer\src\PersonalOrganizer\obj\Debug\PersonalOrganizer.pdb
 C:\Users\zeker\Desktop\CENG2\Bahar\OOP2 Project\Personal-Organizer\src\PersonalOrganizer\obj\Debug\PersonalOrganizer.SalaryCalculatorForm.resources
+C:\Users\zeker\Desktop\CENG2\Bahar\OOP2 Project\Personal-Organizer\src\PersonalOrganizer\obj\Debug\PersonalOrganizer.UserForm.resources
+C:\Users\zeker\Desktop\CENG2\Bahar\OOP2 Project\Personal-Organizer\src\PersonalOrganizer\obj\Debug\PersonalOrganizer.notesForm.resources

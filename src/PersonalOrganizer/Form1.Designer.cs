@@ -84,6 +84,7 @@
             this.girisTelNoTextBox.Name = "girisTelNoTextBox";
             this.girisTelNoTextBox.Size = new System.Drawing.Size(183, 22);
             this.girisTelNoTextBox.TabIndex = 2;
+            this.girisTelNoTextBox.Text = "5389371723";
             // 
             // girisSifreTextBox
             // 
@@ -93,6 +94,7 @@
             this.girisSifreTextBox.PasswordChar = '*';
             this.girisSifreTextBox.Size = new System.Drawing.Size(183, 22);
             this.girisSifreTextBox.TabIndex = 3;
+            this.girisSifreTextBox.Text = "12345678";
             // 
             // girisYapLabel
             // 
@@ -193,7 +195,7 @@
             this.isimTextBox.Name = "isimTextBox";
             this.isimTextBox.Size = new System.Drawing.Size(250, 22);
             this.isimTextBox.TabIndex = 13;
-            this.isimTextBox.Text = "qwer";
+            this.isimTextBox.Text = "Zekeriya";
             // 
             // soyisimTextBox
             // 
@@ -202,7 +204,7 @@
             this.soyisimTextBox.Name = "soyisimTextBox";
             this.soyisimTextBox.Size = new System.Drawing.Size(250, 22);
             this.soyisimTextBox.TabIndex = 14;
-            this.soyisimTextBox.Text = "qwer";
+            this.soyisimTextBox.Text = "Orman";
             // 
             // telNoTextBox
             // 

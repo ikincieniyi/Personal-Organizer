@@ -37,25 +37,25 @@
             this.ustOgrenimComboBox = new System.Windows.Forms.ComboBox();
             this.yoneticilikComboBox = new System.Windows.Forms.ComboBox();
             this.AileDurumuGb = new System.Windows.Forms.GroupBox();
-            this.yabanciDilGb = new System.Windows.Forms.GroupBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.cocuk0_6 = new System.Windows.Forms.NumericUpDown();
-            this.cocuk7_18 = new System.Windows.Forms.NumericUpDown();
-            this.cocuk18 = new System.Windows.Forms.NumericUpDown();
-            this.label11 = new System.Windows.Forms.Label();
-            this.belgeliIngilizceCheckBox = new System.Windows.Forms.CheckBox();
-            this.ingilizceOkulCheckBox = new System.Windows.Forms.CheckBox();
-            this.digerYabanciDilSayisi = new System.Windows.Forms.NumericUpDown();
             this.esDurumuComboBox = new System.Windows.Forms.CheckBox();
+            this.cocuk18 = new System.Windows.Forms.NumericUpDown();
+            this.cocuk7_18 = new System.Windows.Forms.NumericUpDown();
+            this.cocuk0_6 = new System.Windows.Forms.NumericUpDown();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.yabanciDilGb = new System.Windows.Forms.GroupBox();
+            this.digerYabanciDilSayisi = new System.Windows.Forms.NumericUpDown();
+            this.ingilizceOkulCheckBox = new System.Windows.Forms.CheckBox();
+            this.belgeliIngilizceCheckBox = new System.Windows.Forms.CheckBox();
+            this.label11 = new System.Windows.Forms.Label();
             this.maasLabel = new System.Windows.Forms.Label();
             this.maasHesaplaButton = new System.Windows.Forms.Button();
             this.AileDurumuGb.SuspendLayout();
-            this.yabanciDilGb.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.cocuk0_6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.cocuk7_18)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.cocuk18)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cocuk7_18)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cocuk0_6)).BeginInit();
+            this.yabanciDilGb.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.digerYabanciDilSayisi)).BeginInit();
             this.SuspendLayout();
             // 
@@ -99,14 +99,15 @@
             // 
             this.deneyimComboBox.FormattingEnabled = true;
             this.deneyimComboBox.Items.AddRange(new object[] {
+            "Hiçbiri",
             "2-4 Yıl",
             "5-9 Yıl",
             "10-14 Yıl",
             "15-20 Yıl",
             "20 Yıl Üstü"});
-            this.deneyimComboBox.Location = new System.Drawing.Point(204, 37);
+            this.deneyimComboBox.Location = new System.Drawing.Point(160, 37);
             this.deneyimComboBox.Name = "deneyimComboBox";
-            this.deneyimComboBox.Size = new System.Drawing.Size(121, 21);
+            this.deneyimComboBox.Size = new System.Drawing.Size(223, 21);
             this.deneyimComboBox.TabIndex = 6;
             // 
             // yasanilanSehirComboBox
@@ -125,29 +126,31 @@
             "TR22: Balıkesir, Çanakkale",
             "TR61: Antalya, Isparta, Burdur",
             "Diğer"});
-            this.yasanilanSehirComboBox.Location = new System.Drawing.Point(204, 78);
+            this.yasanilanSehirComboBox.Location = new System.Drawing.Point(160, 78);
             this.yasanilanSehirComboBox.Name = "yasanilanSehirComboBox";
-            this.yasanilanSehirComboBox.Size = new System.Drawing.Size(121, 21);
+            this.yasanilanSehirComboBox.Size = new System.Drawing.Size(223, 21);
             this.yasanilanSehirComboBox.TabIndex = 7;
             // 
             // ustOgrenimComboBox
             // 
             this.ustOgrenimComboBox.FormattingEnabled = true;
             this.ustOgrenimComboBox.Items.AddRange(new object[] {
+            "Hiçbiri",
             "Meslek alanı ile ilgili yüksek lisans",
             "Meslek alanı ile ilgili doktora",
             "Meslek alanı ile ilgili doçentlik",
             "Meslek alanı ile ilgili olmayan yüksek lisans",
             "Meslek alanı ile ilgili olmayan doktora/doçentlik"});
-            this.ustOgrenimComboBox.Location = new System.Drawing.Point(204, 126);
+            this.ustOgrenimComboBox.Location = new System.Drawing.Point(160, 126);
             this.ustOgrenimComboBox.Name = "ustOgrenimComboBox";
-            this.ustOgrenimComboBox.Size = new System.Drawing.Size(121, 21);
+            this.ustOgrenimComboBox.Size = new System.Drawing.Size(223, 21);
             this.ustOgrenimComboBox.TabIndex = 8;
             // 
             // yoneticilikComboBox
             // 
             this.yoneticilikComboBox.FormattingEnabled = true;
             this.yoneticilikComboBox.Items.AddRange(new object[] {
+            "Hiçbiri",
             "Takım Lideri/Grup Yöneticisi/Teknik Yönetici/Yazılım Mimarı",
             "Proje Yöneticisi",
             "Direktör/Projeler Yöneticisi ",
@@ -156,9 +159,9 @@
                 "rsa) ",
             "Bilgi İşlem Sorumlusu/Müdürü (Bilgi İşlem biriminde 5\'ten çok bilişim personeli v" +
                 "arsa) "});
-            this.yoneticilikComboBox.Location = new System.Drawing.Point(204, 176);
+            this.yoneticilikComboBox.Location = new System.Drawing.Point(160, 176);
             this.yoneticilikComboBox.Name = "yoneticilikComboBox";
-            this.yoneticilikComboBox.Size = new System.Drawing.Size(121, 21);
+            this.yoneticilikComboBox.Size = new System.Drawing.Size(223, 21);
             this.yoneticilikComboBox.TabIndex = 9;
             // 
             // AileDurumuGb
@@ -177,6 +180,64 @@
             this.AileDurumuGb.TabStop = false;
             this.AileDurumuGb.Text = "Aile Durumu";
             // 
+            // esDurumuComboBox
+            // 
+            this.esDurumuComboBox.AutoSize = true;
+            this.esDurumuComboBox.Location = new System.Drawing.Point(9, 39);
+            this.esDurumuComboBox.Name = "esDurumuComboBox";
+            this.esDurumuComboBox.Size = new System.Drawing.Size(122, 17);
+            this.esDurumuComboBox.TabIndex = 8;
+            this.esDurumuComboBox.Text = "Evli ve eşi çalışmıyor";
+            this.esDurumuComboBox.UseVisualStyleBackColor = true;
+            // 
+            // cocuk18
+            // 
+            this.cocuk18.Location = new System.Drawing.Point(141, 175);
+            this.cocuk18.Name = "cocuk18";
+            this.cocuk18.Size = new System.Drawing.Size(120, 20);
+            this.cocuk18.TabIndex = 7;
+            // 
+            // cocuk7_18
+            // 
+            this.cocuk7_18.Location = new System.Drawing.Point(141, 125);
+            this.cocuk7_18.Name = "cocuk7_18";
+            this.cocuk7_18.Size = new System.Drawing.Size(120, 20);
+            this.cocuk7_18.TabIndex = 6;
+            // 
+            // cocuk0_6
+            // 
+            this.cocuk0_6.Location = new System.Drawing.Point(141, 83);
+            this.cocuk0_6.Name = "cocuk0_6";
+            this.cocuk0_6.Size = new System.Drawing.Size(120, 20);
+            this.cocuk0_6.TabIndex = 5;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(6, 177);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(94, 26);
+            this.label8.TabIndex = 3;
+            this.label8.Text = "18 yaş üstü çocuk\r\n(Öğrenci)\r\n";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(6, 132);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(105, 13);
+            this.label7.TabIndex = 2;
+            this.label7.Text = "7-18 yaş arası çocuk";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(6, 90);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(99, 13);
+            this.label6.TabIndex = 1;
+            this.label6.Text = "0-6 yaş arası çocuk";
+            // 
             // yabanciDilGb
             // 
             this.yabanciDilGb.Controls.Add(this.digerYabanciDilSayisi);
@@ -190,72 +251,12 @@
             this.yabanciDilGb.TabStop = false;
             this.yabanciDilGb.Text = "Yabancı Dil Bilgisi";
             // 
-            // label6
+            // digerYabanciDilSayisi
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(6, 90);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(99, 13);
-            this.label6.TabIndex = 1;
-            this.label6.Text = "0-6 yaş arası çocuk";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(6, 132);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(105, 13);
-            this.label7.TabIndex = 2;
-            this.label7.Text = "7-18 yaş arası çocuk";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(6, 177);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(94, 26);
-            this.label8.TabIndex = 3;
-            this.label8.Text = "18 yaş üstü çocuk\r\n(Öğrenci)\r\n";
-            // 
-            // cocuk0_6
-            // 
-            this.cocuk0_6.Location = new System.Drawing.Point(141, 83);
-            this.cocuk0_6.Name = "cocuk0_6";
-            this.cocuk0_6.Size = new System.Drawing.Size(120, 20);
-            this.cocuk0_6.TabIndex = 5;
-            // 
-            // cocuk7_18
-            // 
-            this.cocuk7_18.Location = new System.Drawing.Point(141, 125);
-            this.cocuk7_18.Name = "cocuk7_18";
-            this.cocuk7_18.Size = new System.Drawing.Size(120, 20);
-            this.cocuk7_18.TabIndex = 6;
-            // 
-            // cocuk18
-            // 
-            this.cocuk18.Location = new System.Drawing.Point(141, 175);
-            this.cocuk18.Name = "cocuk18";
-            this.cocuk18.Size = new System.Drawing.Size(120, 20);
-            this.cocuk18.TabIndex = 7;
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(6, 132);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(157, 26);
-            this.label11.TabIndex = 2;
-            this.label11.Text = "Belgelendirilmiş diğer yabancı dil\r\n(her dil için)";
-            // 
-            // belgeliIngilizceCheckBox
-            // 
-            this.belgeliIngilizceCheckBox.AutoSize = true;
-            this.belgeliIngilizceCheckBox.Location = new System.Drawing.Point(9, 39);
-            this.belgeliIngilizceCheckBox.Name = "belgeliIngilizceCheckBox";
-            this.belgeliIngilizceCheckBox.Size = new System.Drawing.Size(138, 17);
-            this.belgeliIngilizceCheckBox.TabIndex = 3;
-            this.belgeliIngilizceCheckBox.Text = "Belgelendirilmiş İngilizce";
-            this.belgeliIngilizceCheckBox.UseVisualStyleBackColor = true;
+            this.digerYabanciDilSayisi.Location = new System.Drawing.Point(189, 130);
+            this.digerYabanciDilSayisi.Name = "digerYabanciDilSayisi";
+            this.digerYabanciDilSayisi.Size = new System.Drawing.Size(53, 20);
+            this.digerYabanciDilSayisi.TabIndex = 5;
             // 
             // ingilizceOkulCheckBox
             // 
@@ -267,28 +268,30 @@
             this.ingilizceOkulCheckBox.Text = "İngilizce Eğitim Veren Okul Mez.";
             this.ingilizceOkulCheckBox.UseVisualStyleBackColor = true;
             // 
-            // digerYabanciDilSayisi
+            // belgeliIngilizceCheckBox
             // 
-            this.digerYabanciDilSayisi.Location = new System.Drawing.Point(189, 130);
-            this.digerYabanciDilSayisi.Name = "digerYabanciDilSayisi";
-            this.digerYabanciDilSayisi.Size = new System.Drawing.Size(53, 20);
-            this.digerYabanciDilSayisi.TabIndex = 5;
+            this.belgeliIngilizceCheckBox.AutoSize = true;
+            this.belgeliIngilizceCheckBox.Location = new System.Drawing.Point(9, 39);
+            this.belgeliIngilizceCheckBox.Name = "belgeliIngilizceCheckBox";
+            this.belgeliIngilizceCheckBox.Size = new System.Drawing.Size(138, 17);
+            this.belgeliIngilizceCheckBox.TabIndex = 3;
+            this.belgeliIngilizceCheckBox.Text = "Belgelendirilmiş İngilizce";
+            this.belgeliIngilizceCheckBox.UseVisualStyleBackColor = true;
             // 
-            // esDurumuComboBox
+            // label11
             // 
-            this.esDurumuComboBox.AutoSize = true;
-            this.esDurumuComboBox.Location = new System.Drawing.Point(9, 39);
-            this.esDurumuComboBox.Name = "esDurumuComboBox";
-            this.esDurumuComboBox.Size = new System.Drawing.Size(122, 17);
-            this.esDurumuComboBox.TabIndex = 8;
-            this.esDurumuComboBox.Text = "Evli ve eşi çalışmıyor";
-            this.esDurumuComboBox.UseVisualStyleBackColor = true;
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(6, 132);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(157, 26);
+            this.label11.TabIndex = 2;
+            this.label11.Text = "Belgelendirilmiş diğer yabancı dil\r\n(her dil için)";
             // 
             // maasLabel
             // 
             this.maasLabel.AutoSize = true;
             this.maasLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.maasLabel.Location = new System.Drawing.Point(353, 44);
+            this.maasLabel.Location = new System.Drawing.Point(451, 37);
             this.maasLabel.Name = "maasLabel";
             this.maasLabel.Size = new System.Drawing.Size(168, 62);
             this.maasLabel.TabIndex = 12;
@@ -296,7 +299,7 @@
             // 
             // maasHesaplaButton
             // 
-            this.maasHesaplaButton.Location = new System.Drawing.Point(359, 162);
+            this.maasHesaplaButton.Location = new System.Drawing.Point(500, 170);
             this.maasHesaplaButton.Name = "maasHesaplaButton";
             this.maasHesaplaButton.Size = new System.Drawing.Size(119, 30);
             this.maasHesaplaButton.TabIndex = 13;
@@ -325,11 +328,11 @@
             this.Text = "SalaryCalculatorForm";
             this.AileDurumuGb.ResumeLayout(false);
             this.AileDurumuGb.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.cocuk18)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cocuk7_18)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cocuk0_6)).EndInit();
             this.yabanciDilGb.ResumeLayout(false);
             this.yabanciDilGb.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.cocuk0_6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.cocuk7_18)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.cocuk18)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.digerYabanciDilSayisi)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

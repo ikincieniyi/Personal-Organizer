@@ -17,6 +17,7 @@ namespace PersonalOrganizer
 
         Dictionary<string, double> deneyim = new Dictionary<string, double>()
         {
+            {"Hiçbiri", 0 },
             {"2-4 Yıl", 0.6},
             {"5-9 Yıl", 1},
             {"10-14 Yıl", 1.2},
@@ -42,6 +43,7 @@ namespace PersonalOrganizer
 
         Dictionary<string, double> egitim = new Dictionary<string, double>()
         {
+            {"Hiçbiri", 0 },
             {"Meslek alanı ile ilgili yüksek lisans", 0.1},
             {"Meslek alanı ile ilgili doktora", 0.3},
             {"Meslek alanı ile ilgili doçentlik", 0.35},
@@ -51,6 +53,7 @@ namespace PersonalOrganizer
 
         Dictionary<string, double> pozisyon = new Dictionary<string, double>()
         {
+            {"Hiçbiri", 0 },
             {"Takım Lideri/Grup Yöneticisi/Teknik Yönetici/Yazılım Mimarı", 0.5},
             {"Proje Yöneticisi", 0.75},
             {"Direktör/Projeler Yöneticisi", 0.85},
@@ -69,6 +72,7 @@ namespace PersonalOrganizer
 
         Dictionary<string, double> yabanciDil = new Dictionary<string, double>()
         {
+            {"Hiçbiri", 0 },
             {"Belgelendirilmiş İngilizce", 0.2},
             {"İngilizce Eğitim Veren Okul Mez.", 0.2},
             {"Belgelendirilmiş diğer yabancı dil", 0.05},

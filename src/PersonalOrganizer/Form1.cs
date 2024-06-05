@@ -198,11 +198,5 @@ namespace PersonalOrganizer
                 return null;
             }
         }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            SalaryCalculatorForm salaryCalculatorForm = new SalaryCalculatorForm("5389371723");
-            salaryCalculatorForm.Show();
-        }
     }
 }

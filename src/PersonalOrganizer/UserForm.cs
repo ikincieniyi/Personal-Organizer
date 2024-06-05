@@ -13,12 +13,14 @@ namespace PersonalOrganizer
     public partial class UserForm : Form
     {
         public static string userPhoneNumber = "";
+        public static string userType;
         string[] user;
 
         public UserForm(string[] user)
         {
             InitializeComponent();
             userPhoneNumber = user[4];
+            userType = user[6];
             this.user = user;
         }
 
@@ -36,7 +38,7 @@ namespace PersonalOrganizer
 
         private void salaryCalculatorButton_Click(object sender, EventArgs e)
         {
-            SalaryCalculatorForm salaryCalculatorForm = new SalaryCalculatorForm(userPhoneNumber);
+            SalaryCalculatorForm salaryCalculatorForm = new SalaryCalculatorForm(userPhoneNumber, userType);
             salaryCalculatorForm.Show();
         }
 

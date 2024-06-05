@@ -16,6 +16,7 @@ namespace PersonalOrganizer
         //baz ücret, brüt asgari ücretin 2 katıdır
         double bazUcret = 20002.5 * 2;
         string phoneNumber;
+        string usertype;
 
         Dictionary<string, double> deneyim = new Dictionary<string, double>()
         {
@@ -81,10 +82,11 @@ namespace PersonalOrganizer
         };
 
 
-        public SalaryCalculatorForm(string phoneNumber)
+        public SalaryCalculatorForm(string phoneNumber, string userType)
         {
             InitializeComponent();
             this.phoneNumber = phoneNumber;
+            this.usertype = userType;
         }
 
         private double maasHesapla()
@@ -160,7 +162,16 @@ namespace PersonalOrganizer
 
             double maasKatSayisi = 1 + deneyimDegeri + sehirDegeri + egitimDegeri + pozisyonDegeri + aileDegeri + yabanciDilDegeri;
 
-            return maas = bazUcret * maasKatSayisi;
+            maas = bazUcret * maasKatSayisi;
+
+            if(usertype == "partTimeUser")
+            {
+                return maas * 0.5;
+            }
+            else
+            {
+                return maas;
+            }
         }
 
         private void maasHesaplaButton_Click(object sender, EventArgs e)

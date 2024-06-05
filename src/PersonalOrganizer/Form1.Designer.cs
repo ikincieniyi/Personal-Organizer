@@ -53,7 +53,6 @@
             this.sifreTekrarLabel = new System.Windows.Forms.Label();
             this.sifreTextBox = new System.Windows.Forms.TextBox();
             this.sifreLabel = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
             this.KayitOlgb.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -320,22 +319,11 @@
             this.sifreLabel.TabIndex = 20;
             this.sifreLabel.Text = "Şifre:";
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(80, 373);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 21;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(944, 501);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.KayitOlgb);
             this.Controls.Add(this.SingInQButton);
             this.Controls.Add(this.kayıtOlSorusuLabel);
@@ -382,7 +370,6 @@
         private System.Windows.Forms.Label sifreLabel;
         private System.Windows.Forms.TextBox sifreTekrarTextBox;
         private System.Windows.Forms.Label sifreTekrarLabel;
-        private System.Windows.Forms.Button button1;
     }
 }
 

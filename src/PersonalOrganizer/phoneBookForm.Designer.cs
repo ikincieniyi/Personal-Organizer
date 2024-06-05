@@ -1,6 +1,6 @@
 ﻿namespace PersonalOrganizer
 {
-    partial class ProfileForm
+    partial class phoneBookForm
     {
         /// <summary>
         /// Required designer variable.
@@ -38,121 +38,172 @@
             this.telNoLabel = new System.Windows.Forms.Label();
             this.mailLabel = new System.Windows.Forms.Label();
             this.nameLabel = new System.Windows.Forms.Label();
-            this.updateButton = new System.Windows.Forms.Button();
+            this.kayitButton = new System.Windows.Forms.Button();
+            this.listView1 = new System.Windows.Forms.ListView();
+            this.deleteButton = new System.Windows.Forms.Button();
+            this.editButton = new System.Windows.Forms.Button();
+            this.listButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // adresTextBox
             // 
             this.adresTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.adresTextBox.Location = new System.Drawing.Point(139, 185);
+            this.adresTextBox.Location = new System.Drawing.Point(679, 170);
             this.adresTextBox.Name = "adresTextBox";
-            this.adresTextBox.Size = new System.Drawing.Size(250, 22);
-            this.adresTextBox.TabIndex = 27;
+            this.adresTextBox.Size = new System.Drawing.Size(221, 22);
+            this.adresTextBox.TabIndex = 29;
             this.adresTextBox.Text = "Eskişehir/Tepebaşı";
             // 
             // epostaTextBox
             // 
             this.epostaTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.epostaTextBox.Location = new System.Drawing.Point(139, 147);
+            this.epostaTextBox.Location = new System.Drawing.Point(679, 132);
             this.epostaTextBox.Name = "epostaTextBox";
-            this.epostaTextBox.Size = new System.Drawing.Size(250, 22);
-            this.epostaTextBox.TabIndex = 26;
+            this.epostaTextBox.Size = new System.Drawing.Size(221, 22);
+            this.epostaTextBox.TabIndex = 28;
             this.epostaTextBox.Text = "zekeriyaorman1903@gmail.com";
             // 
             // telNoTextBox
             // 
             this.telNoTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.telNoTextBox.Location = new System.Drawing.Point(139, 105);
+            this.telNoTextBox.Location = new System.Drawing.Point(679, 90);
             this.telNoTextBox.Name = "telNoTextBox";
-            this.telNoTextBox.ReadOnly = true;
-            this.telNoTextBox.Size = new System.Drawing.Size(250, 22);
-            this.telNoTextBox.TabIndex = 25;
+            this.telNoTextBox.Size = new System.Drawing.Size(221, 22);
+            this.telNoTextBox.TabIndex = 27;
             this.telNoTextBox.Text = "5389371723";
             // 
             // soyisimTextBox
             // 
             this.soyisimTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.soyisimTextBox.Location = new System.Drawing.Point(139, 67);
+            this.soyisimTextBox.Location = new System.Drawing.Point(679, 52);
             this.soyisimTextBox.Name = "soyisimTextBox";
-            this.soyisimTextBox.Size = new System.Drawing.Size(250, 22);
-            this.soyisimTextBox.TabIndex = 24;
+            this.soyisimTextBox.Size = new System.Drawing.Size(221, 22);
+            this.soyisimTextBox.TabIndex = 26;
             this.soyisimTextBox.Text = "Orman";
             // 
             // isimTextBox
             // 
             this.isimTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.isimTextBox.Location = new System.Drawing.Point(139, 27);
+            this.isimTextBox.Location = new System.Drawing.Point(679, 12);
             this.isimTextBox.Name = "isimTextBox";
-            this.isimTextBox.Size = new System.Drawing.Size(250, 22);
-            this.isimTextBox.TabIndex = 23;
+            this.isimTextBox.Size = new System.Drawing.Size(221, 22);
+            this.isimTextBox.TabIndex = 25;
             this.isimTextBox.Text = "Zekeriya";
             // 
             // addressLabel
             // 
             this.addressLabel.AutoSize = true;
             this.addressLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.addressLabel.Location = new System.Drawing.Point(32, 187);
+            this.addressLabel.Location = new System.Drawing.Point(572, 172);
             this.addressLabel.Name = "addressLabel";
             this.addressLabel.Size = new System.Drawing.Size(55, 20);
-            this.addressLabel.TabIndex = 22;
+            this.addressLabel.TabIndex = 24;
             this.addressLabel.Text = "Adres:";
             // 
             // surnameLabel
             // 
             this.surnameLabel.AutoSize = true;
             this.surnameLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.surnameLabel.Location = new System.Drawing.Point(32, 67);
+            this.surnameLabel.Location = new System.Drawing.Point(572, 52);
             this.surnameLabel.Name = "surnameLabel";
             this.surnameLabel.Size = new System.Drawing.Size(67, 20);
-            this.surnameLabel.TabIndex = 21;
+            this.surnameLabel.TabIndex = 23;
             this.surnameLabel.Text = "Soyisim:";
             // 
             // telNoLabel
             // 
             this.telNoLabel.AutoSize = true;
             this.telNoLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.telNoLabel.Location = new System.Drawing.Point(32, 107);
+            this.telNoLabel.Location = new System.Drawing.Point(572, 92);
             this.telNoLabel.Name = "telNoLabel";
             this.telNoLabel.Size = new System.Drawing.Size(62, 20);
-            this.telNoLabel.TabIndex = 20;
+            this.telNoLabel.TabIndex = 22;
             this.telNoLabel.Text = "Tel. No:";
             // 
             // mailLabel
             // 
             this.mailLabel.AutoSize = true;
             this.mailLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.mailLabel.Location = new System.Drawing.Point(32, 147);
+            this.mailLabel.Location = new System.Drawing.Point(572, 132);
             this.mailLabel.Name = "mailLabel";
             this.mailLabel.Size = new System.Drawing.Size(66, 20);
-            this.mailLabel.TabIndex = 19;
+            this.mailLabel.TabIndex = 21;
             this.mailLabel.Text = "E-Posta";
             // 
             // nameLabel
             // 
             this.nameLabel.AutoSize = true;
             this.nameLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.nameLabel.Location = new System.Drawing.Point(32, 27);
+            this.nameLabel.Location = new System.Drawing.Point(572, 12);
             this.nameLabel.Name = "nameLabel";
             this.nameLabel.Size = new System.Drawing.Size(42, 20);
-            this.nameLabel.TabIndex = 18;
+            this.nameLabel.TabIndex = 20;
             this.nameLabel.Text = "İsim:";
             // 
-            // updateButton
+            // kayitButton
             // 
-            this.updateButton.Location = new System.Drawing.Point(268, 239);
-            this.updateButton.Name = "updateButton";
-            this.updateButton.Size = new System.Drawing.Size(121, 40);
-            this.updateButton.TabIndex = 28;
-            this.updateButton.Text = "Güncelle";
-            this.updateButton.UseVisualStyleBackColor = true;
-            this.updateButton.Click += new System.EventHandler(this.updateButton_Click);
+            this.kayitButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.kayitButton.Location = new System.Drawing.Point(800, 214);
+            this.kayitButton.Name = "kayitButton";
+            this.kayitButton.Size = new System.Drawing.Size(100, 32);
+            this.kayitButton.TabIndex = 31;
+            this.kayitButton.Text = "Kaydet";
+            this.kayitButton.UseVisualStyleBackColor = true;
+            this.kayitButton.Click += new System.EventHandler(this.kayitButton_Click);
             // 
-            // ProfileForm
+            // listView1
+            // 
+            this.listView1.AllowColumnReorder = true;
+            this.listView1.HideSelection = false;
+            this.listView1.Location = new System.Drawing.Point(12, 12);
+            this.listView1.Name = "listView1";
+            this.listView1.Size = new System.Drawing.Size(528, 435);
+            this.listView1.TabIndex = 32;
+            this.listView1.UseCompatibleStateImageBehavior = false;
+            // 
+            // deleteButton
+            // 
+            this.deleteButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.deleteButton.Location = new System.Drawing.Point(562, 214);
+            this.deleteButton.Name = "deleteButton";
+            this.deleteButton.Size = new System.Drawing.Size(100, 32);
+            this.deleteButton.TabIndex = 33;
+            this.deleteButton.Text = "Sil";
+            this.deleteButton.UseVisualStyleBackColor = true;
+            this.deleteButton.Click += new System.EventHandler(this.deleteButton_Click);
+            // 
+            // editButton
+            // 
+            this.editButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.editButton.Location = new System.Drawing.Point(679, 214);
+            this.editButton.Name = "editButton";
+            this.editButton.Size = new System.Drawing.Size(100, 32);
+            this.editButton.TabIndex = 34;
+            this.editButton.Text = "Güncelle";
+            this.editButton.UseVisualStyleBackColor = true;
+            this.editButton.Click += new System.EventHandler(this.editButton_Click);
+            // 
+            // listButton
+            // 
+            this.listButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.listButton.Location = new System.Drawing.Point(346, 457);
+            this.listButton.Name = "listButton";
+            this.listButton.Size = new System.Drawing.Size(194, 32);
+            this.listButton.TabIndex = 35;
+            this.listButton.Text = "Kullanıcıları Görüntüle";
+            this.listButton.UseVisualStyleBackColor = true;
+            this.listButton.Click += new System.EventHandler(this.listButton_Click);
+            // 
+            // phoneBookForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(944, 501);
-            this.Controls.Add(this.updateButton);
+            this.Controls.Add(this.listButton);
+            this.Controls.Add(this.editButton);
+            this.Controls.Add(this.deleteButton);
+            this.Controls.Add(this.listView1);
+            this.Controls.Add(this.kayitButton);
             this.Controls.Add(this.adresTextBox);
             this.Controls.Add(this.epostaTextBox);
             this.Controls.Add(this.telNoTextBox);
@@ -163,16 +214,15 @@
             this.Controls.Add(this.telNoLabel);
             this.Controls.Add(this.mailLabel);
             this.Controls.Add(this.nameLabel);
-            this.Name = "ProfileForm";
-            this.Text = "ProfileForm";
-            this.Load += new System.EventHandler(this.ProfileForm_Load);
+            this.Name = "phoneBookForm";
+            this.Text = "phoneBookForm";
+            this.Load += new System.EventHandler(this.phoneBookForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
         private System.Windows.Forms.TextBox adresTextBox;
         private System.Windows.Forms.TextBox epostaTextBox;
         private System.Windows.Forms.TextBox telNoTextBox;
@@ -183,6 +233,10 @@
         private System.Windows.Forms.Label telNoLabel;
         private System.Windows.Forms.Label mailLabel;
         private System.Windows.Forms.Label nameLabel;
-        private System.Windows.Forms.Button updateButton;
+        private System.Windows.Forms.Button kayitButton;
+        private System.Windows.Forms.ListView listView1;
+        private System.Windows.Forms.Button deleteButton;
+        private System.Windows.Forms.Button editButton;
+        private System.Windows.Forms.Button listButton;
     }
 }

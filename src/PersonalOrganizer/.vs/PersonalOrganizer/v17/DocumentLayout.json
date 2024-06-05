@@ -3,7 +3,31 @@
   "WorkspaceRootPath": "C:\\Users\\zeker\\Desktop\\CENG2\\Bahar\\OOP2 Project\\Personal-Organizer\\src\\PersonalOrganizer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BCCB2092-5790-4D9A-8E25-CB69485C4F58}|PersonalOrganizer.csproj|C:\\Users\\zeker\\Desktop\\CENG2\\Bahar\\OOP2 Project\\Personal-Organizer\\src\\PersonalOrganizer\\userform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BCCB2092-5790-4D9A-8E25-CB69485C4F58}|PersonalOrganizer.csproj|c:\\users\\zeker\\desktop\\ceng2\\bahar\\oop2 project\\personal-organizer\\src\\personalorganizer\\profileform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCCB2092-5790-4D9A-8E25-CB69485C4F58}|PersonalOrganizer.csproj|solutionrelative:profileform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCCB2092-5790-4D9A-8E25-CB69485C4F58}|PersonalOrganizer.csproj|c:\\users\\zeker\\desktop\\ceng2\\bahar\\oop2 project\\personal-organizer\\src\\personalorganizer\\profileform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BCCB2092-5790-4D9A-8E25-CB69485C4F58}|PersonalOrganizer.csproj|solutionrelative:profileform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCCB2092-5790-4D9A-8E25-CB69485C4F58}|PersonalOrganizer.csproj|c:\\users\\zeker\\desktop\\ceng2\\bahar\\oop2 project\\personal-organizer\\src\\personalorganizer\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCCB2092-5790-4D9A-8E25-CB69485C4F58}|PersonalOrganizer.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCCB2092-5790-4D9A-8E25-CB69485C4F58}|PersonalOrganizer.csproj|c:\\users\\zeker\\desktop\\ceng2\\bahar\\oop2 project\\personal-organizer\\src\\personalorganizer\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BCCB2092-5790-4D9A-8E25-CB69485C4F58}|PersonalOrganizer.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCCB2092-5790-4D9A-8E25-CB69485C4F58}|PersonalOrganizer.csproj|c:\\users\\zeker\\desktop\\ceng2\\bahar\\oop2 project\\personal-organizer\\src\\personalorganizer\\phonebookform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCCB2092-5790-4D9A-8E25-CB69485C4F58}|PersonalOrganizer.csproj|solutionrelative:phonebookform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCCB2092-5790-4D9A-8E25-CB69485C4F58}|PersonalOrganizer.csproj|c:\\users\\zeker\\desktop\\ceng2\\bahar\\oop2 project\\personal-organizer\\src\\personalorganizer\\phonebookform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BCCB2092-5790-4D9A-8E25-CB69485C4F58}|PersonalOrganizer.csproj|solutionrelative:phonebookform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCCB2092-5790-4D9A-8E25-CB69485C4F58}|PersonalOrganizer.csproj|c:\\users\\zeker\\desktop\\ceng2\\bahar\\oop2 project\\personal-organizer\\src\\personalorganizer\\userform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BCCB2092-5790-4D9A-8E25-CB69485C4F58}|PersonalOrganizer.csproj|solutionrelative:userform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -11,32 +35,24 @@
       "RelativeMoniker": "D:0:0:{BCCB2092-5790-4D9A-8E25-CB69485C4F58}|PersonalOrganizer.csproj|solutionrelative:userform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BCCB2092-5790-4D9A-8E25-CB69485C4F58}|PersonalOrganizer.csproj|c:\\users\\zeker\\desktop\\ceng2\\bahar\\oop2 project\\personal-organizer\\src\\personalorganizer\\reminderform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BCCB2092-5790-4D9A-8E25-CB69485C4F58}|PersonalOrganizer.csproj|solutionrelative:reminderform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{BCCB2092-5790-4D9A-8E25-CB69485C4F58}|PersonalOrganizer.csproj|c:\\users\\zeker\\desktop\\ceng2\\bahar\\oop2 project\\personal-organizer\\src\\personalorganizer\\adminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BCCB2092-5790-4D9A-8E25-CB69485C4F58}|PersonalOrganizer.csproj|solutionrelative:adminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BCCB2092-5790-4D9A-8E25-CB69485C4F58}|PersonalOrganizer.csproj|c:\\users\\zeker\\desktop\\ceng2\\bahar\\oop2 project\\personal-organizer\\src\\personalorganizer\\reminderform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BCCB2092-5790-4D9A-8E25-CB69485C4F58}|PersonalOrganizer.csproj|solutionrelative:reminderform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BCCB2092-5790-4D9A-8E25-CB69485C4F58}|PersonalOrganizer.csproj|c:\\users\\zeker\\desktop\\ceng2\\bahar\\oop2 project\\personal-organizer\\src\\personalorganizer\\profileform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BCCB2092-5790-4D9A-8E25-CB69485C4F58}|PersonalOrganizer.csproj|solutionrelative:profileform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BCCB2092-5790-4D9A-8E25-CB69485C4F58}|PersonalOrganizer.csproj|C:\\Users\\zeker\\Desktop\\CENG2\\Bahar\\OOP2 Project\\Personal-Organizer\\src\\PersonalOrganizer\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BCCB2092-5790-4D9A-8E25-CB69485C4F58}|PersonalOrganizer.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BCCB2092-5790-4D9A-8E25-CB69485C4F58}|PersonalOrganizer.csproj|C:\\Users\\zeker\\Desktop\\CENG2\\Bahar\\OOP2 Project\\Personal-Organizer\\src\\PersonalOrganizer\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BCCB2092-5790-4D9A-8E25-CB69485C4F58}|PersonalOrganizer.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BCCB2092-5790-4D9A-8E25-CB69485C4F58}|PersonalOrganizer.csproj|C:\\Users\\zeker\\Desktop\\CENG2\\Bahar\\OOP2 Project\\Personal-Organizer\\src\\PersonalOrganizer\\notesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BCCB2092-5790-4D9A-8E25-CB69485C4F58}|PersonalOrganizer.csproj|solutionrelative:notesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{BCCB2092-5790-4D9A-8E25-CB69485C4F58}|PersonalOrganizer.csproj|c:\\users\\zeker\\desktop\\ceng2\\bahar\\oop2 project\\personal-organizer\\src\\personalorganizer\\adminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCCB2092-5790-4D9A-8E25-CB69485C4F58}|PersonalOrganizer.csproj|solutionrelative:adminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BCCB2092-5790-4D9A-8E25-CB69485C4F58}|PersonalOrganizer.csproj|c:\\users\\zeker\\desktop\\ceng2\\bahar\\oop2 project\\personal-organizer\\src\\personalorganizer\\notesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BCCB2092-5790-4D9A-8E25-CB69485C4F58}|PersonalOrganizer.csproj|solutionrelative:notesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCCB2092-5790-4D9A-8E25-CB69485C4F58}|PersonalOrganizer.csproj|c:\\users\\zeker\\desktop\\ceng2\\bahar\\oop2 project\\personal-organizer\\src\\personalorganizer\\salarycalculatorform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BCCB2092-5790-4D9A-8E25-CB69485C4F58}|PersonalOrganizer.csproj|solutionrelative:salarycalculatorform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCCB2092-5790-4D9A-8E25-CB69485C4F58}|PersonalOrganizer.csproj|c:\\users\\zeker\\desktop\\ceng2\\bahar\\oop2 project\\personal-organizer\\src\\personalorganizer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCCB2092-5790-4D9A-8E25-CB69485C4F58}|PersonalOrganizer.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,7 +62,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,115 +78,166 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ProfileForm.cs [Design]",
+              "DocumentIndex": 0,
+              "Title": "ProfileForm.cs",
               "DocumentMoniker": "C:\\Users\\zeker\\Desktop\\CENG2\\Bahar\\OOP2 Project\\Personal-Organizer\\src\\PersonalOrganizer\\ProfileForm.cs",
               "RelativeDocumentMoniker": "ProfileForm.cs",
-              "ToolTip": "C:\\Users\\zeker\\Desktop\\CENG2\\Bahar\\OOP2 Project\\Personal-Organizer\\src\\PersonalOrganizer\\ProfileForm.cs [Design]",
-              "RelativeToolTip": "ProfileForm.cs [Design]",
+              "ToolTip": "C:\\Users\\zeker\\Desktop\\CENG2\\Bahar\\OOP2 Project\\Personal-Organizer\\src\\PersonalOrganizer\\ProfileForm.cs",
+              "RelativeToolTip": "ProfileForm.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABUAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-03T15:37:30.169Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ReminderForm.cs",
-              "DocumentMoniker": "C:\\Users\\zeker\\Desktop\\CENG2\\Bahar\\OOP2 Project\\Personal-Organizer\\src\\PersonalOrganizer\\ReminderForm.cs",
-              "RelativeDocumentMoniker": "ReminderForm.cs",
-              "ToolTip": "C:\\Users\\zeker\\Desktop\\CENG2\\Bahar\\OOP2 Project\\Personal-Organizer\\src\\PersonalOrganizer\\ReminderForm.cs",
-              "RelativeToolTip": "ReminderForm.cs",
-              "ViewState": "AQIAAHMAAAAAAAAAAAAAAL4AAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-03T15:15:48.954Z",
+              "WhenOpened": "2024-06-05T01:44:07.858Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ReminderForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\zeker\\Desktop\\CENG2\\Bahar\\OOP2 Project\\Personal-Organizer\\src\\PersonalOrganizer\\ReminderForm.cs",
-              "RelativeDocumentMoniker": "ReminderForm.cs",
-              "ToolTip": "C:\\Users\\zeker\\Desktop\\CENG2\\Bahar\\OOP2 Project\\Personal-Organizer\\src\\PersonalOrganizer\\ReminderForm.cs [Design]",
-              "RelativeToolTip": "ReminderForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-03T15:15:08.63Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UserForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\zeker\\Desktop\\CENG2\\Bahar\\OOP2 Project\\Personal-Organizer\\src\\PersonalOrganizer\\UserForm.cs",
-              "RelativeDocumentMoniker": "UserForm.cs",
-              "ToolTip": "C:\\Users\\zeker\\Desktop\\CENG2\\Bahar\\OOP2 Project\\Personal-Organizer\\src\\PersonalOrganizer\\UserForm.cs [Design]",
-              "RelativeToolTip": "UserForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-03T15:08:58.179Z",
-              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\zeker\\Desktop\\CENG2\\Bahar\\OOP2 Project\\Personal-Organizer\\src\\PersonalOrganizer\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\zeker\\Desktop\\CENG2\\Bahar\\OOP2 Project\\Personal-Organizer\\src\\PersonalOrganizer\\Form1.cs",
-              "RelativeToolTip": "Form1.cs",
-              "ViewState": "AQIAAHEAAAAAAAAAAAAewI8AAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-03T11:38:51.918Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "notesForm.cs",
-              "DocumentMoniker": "C:\\Users\\zeker\\Desktop\\CENG2\\Bahar\\OOP2 Project\\Personal-Organizer\\src\\PersonalOrganizer\\notesForm.cs",
-              "RelativeDocumentMoniker": "notesForm.cs",
-              "ToolTip": "C:\\Users\\zeker\\Desktop\\CENG2\\Bahar\\OOP2 Project\\Personal-Organizer\\src\\PersonalOrganizer\\notesForm.cs",
-              "RelativeToolTip": "notesForm.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAKsAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-03T11:22:11.712Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "notesForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\zeker\\Desktop\\CENG2\\Bahar\\OOP2 Project\\Personal-Organizer\\src\\PersonalOrganizer\\notesForm.cs",
-              "RelativeDocumentMoniker": "notesForm.cs",
-              "ToolTip": "C:\\Users\\zeker\\Desktop\\CENG2\\Bahar\\OOP2 Project\\Personal-Organizer\\src\\PersonalOrganizer\\notesForm.cs [Design]",
-              "RelativeToolTip": "notesForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-03T11:22:05.496Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "UserForm.cs",
               "DocumentMoniker": "C:\\Users\\zeker\\Desktop\\CENG2\\Bahar\\OOP2 Project\\Personal-Organizer\\src\\PersonalOrganizer\\UserForm.cs",
               "RelativeDocumentMoniker": "UserForm.cs",
               "ToolTip": "C:\\Users\\zeker\\Desktop\\CENG2\\Bahar\\OOP2 Project\\Personal-Organizer\\src\\PersonalOrganizer\\UserForm.cs",
               "RelativeToolTip": "UserForm.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAMwCMAAAAAAAAA",
+              "ViewState": "AQIAABIAAAAAAAAAAAAewBgAAABCAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-03T11:10:19.025Z",
+              "WhenOpened": "2024-06-04T23:27:24.026Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "phoneBookForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\zeker\\Desktop\\CENG2\\Bahar\\OOP2 Project\\Personal-Organizer\\src\\PersonalOrganizer\\phoneBookForm.cs",
+              "RelativeDocumentMoniker": "phoneBookForm.cs",
+              "ToolTip": "C:\\Users\\zeker\\Desktop\\CENG2\\Bahar\\OOP2 Project\\Personal-Organizer\\src\\PersonalOrganizer\\phoneBookForm.cs [Design]",
+              "RelativeToolTip": "phoneBookForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T01:05:33.62Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "phoneBookForm.cs",
+              "DocumentMoniker": "C:\\Users\\zeker\\Desktop\\CENG2\\Bahar\\OOP2 Project\\Personal-Organizer\\src\\PersonalOrganizer\\phoneBookForm.cs",
+              "RelativeDocumentMoniker": "phoneBookForm.cs",
+              "ToolTip": "C:\\Users\\zeker\\Desktop\\CENG2\\Bahar\\OOP2 Project\\Personal-Organizer\\src\\PersonalOrganizer\\phoneBookForm.cs",
+              "RelativeToolTip": "phoneBookForm.cs",
+              "ViewState": "AQIAAD4AAAAAAAAAAAAvwF0AAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T01:09:19.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\zeker\\Desktop\\CENG2\\Bahar\\OOP2 Project\\Personal-Organizer\\src\\PersonalOrganizer\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "C:\\Users\\zeker\\Desktop\\CENG2\\Bahar\\OOP2 Project\\Personal-Organizer\\src\\PersonalOrganizer\\Form1.cs [Design]",
               "RelativeToolTip": "Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-03T14:46:50.149Z",
+              "WhenOpened": "2024-06-05T01:49:38.013Z",
               "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\zeker\\Desktop\\CENG2\\Bahar\\OOP2 Project\\Personal-Organizer\\src\\PersonalOrganizer\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\zeker\\Desktop\\CENG2\\Bahar\\OOP2 Project\\Personal-Organizer\\src\\PersonalOrganizer\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AQIAAKYAAAAAAAAAAAAAAL4AAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T01:49:40.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProfileForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\zeker\\Desktop\\CENG2\\Bahar\\OOP2 Project\\Personal-Organizer\\src\\PersonalOrganizer\\ProfileForm.cs",
+              "RelativeDocumentMoniker": "ProfileForm.cs",
+              "ToolTip": "C:\\Users\\zeker\\Desktop\\CENG2\\Bahar\\OOP2 Project\\Personal-Organizer\\src\\PersonalOrganizer\\ProfileForm.cs [Design]",
+              "RelativeToolTip": "ProfileForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T01:43:28.689Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\zeker\\Desktop\\CENG2\\Bahar\\OOP2 Project\\Personal-Organizer\\src\\PersonalOrganizer\\UserForm.cs",
+              "RelativeDocumentMoniker": "UserForm.cs",
+              "ToolTip": "C:\\Users\\zeker\\Desktop\\CENG2\\Bahar\\OOP2 Project\\Personal-Organizer\\src\\PersonalOrganizer\\UserForm.cs [Design]",
+              "RelativeToolTip": "UserForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T23:27:22.871Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AdminForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\zeker\\Desktop\\CENG2\\Bahar\\OOP2 Project\\Personal-Organizer\\src\\PersonalOrganizer\\AdminForm.cs",
+              "RelativeDocumentMoniker": "AdminForm.cs",
+              "ToolTip": "C:\\Users\\zeker\\Desktop\\CENG2\\Bahar\\OOP2 Project\\Personal-Organizer\\src\\PersonalOrganizer\\AdminForm.cs [Design]",
+              "RelativeToolTip": "AdminForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T23:58:10.114Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AdminForm.cs",
+              "DocumentMoniker": "C:\\Users\\zeker\\Desktop\\CENG2\\Bahar\\OOP2 Project\\Personal-Organizer\\src\\PersonalOrganizer\\AdminForm.cs",
+              "RelativeDocumentMoniker": "AdminForm.cs",
+              "ToolTip": "C:\\Users\\zeker\\Desktop\\CENG2\\Bahar\\OOP2 Project\\Personal-Organizer\\src\\PersonalOrganizer\\AdminForm.cs",
+              "RelativeToolTip": "AdminForm.cs",
+              "ViewState": "AQIAADUAAAAAAAAAAAAnwEYAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T00:05:55.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "notesForm.cs",
+              "DocumentMoniker": "C:\\Users\\zeker\\Desktop\\CENG2\\Bahar\\OOP2 Project\\Personal-Organizer\\src\\PersonalOrganizer\\notesForm.cs",
+              "RelativeDocumentMoniker": "notesForm.cs",
+              "ToolTip": "C:\\Users\\zeker\\Desktop\\CENG2\\Bahar\\OOP2 Project\\Personal-Organizer\\src\\PersonalOrganizer\\notesForm.cs",
+              "RelativeToolTip": "notesForm.cs",
+              "ViewState": "AQIAAKUAAAAAAAAAAAAAABEAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T01:14:05.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SalaryCalculatorForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\zeker\\Desktop\\CENG2\\Bahar\\OOP2 Project\\Personal-Organizer\\src\\PersonalOrganizer\\SalaryCalculatorForm.cs",
+              "RelativeDocumentMoniker": "SalaryCalculatorForm.cs",
+              "ToolTip": "C:\\Users\\zeker\\Desktop\\CENG2\\Bahar\\OOP2 Project\\Personal-Organizer\\src\\PersonalOrganizer\\SalaryCalculatorForm.cs [Design]",
+              "RelativeToolTip": "SalaryCalculatorForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T23:42:01.291Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\zeker\\Desktop\\CENG2\\Bahar\\OOP2 Project\\Personal-Organizer\\src\\PersonalOrganizer\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\zeker\\Desktop\\CENG2\\Bahar\\OOP2 Project\\Personal-Organizer\\src\\PersonalOrganizer\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T23:16:23.048Z",
+              "EditorCaption": ""
             }
           ]
         }

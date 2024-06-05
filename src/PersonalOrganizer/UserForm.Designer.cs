@@ -53,6 +53,7 @@
             this.phonebookButton.TabIndex = 1;
             this.phonebookButton.Text = "TELEFON\r\nDEFTERİ\r\n";
             this.phonebookButton.UseVisualStyleBackColor = true;
+            this.phonebookButton.Click += new System.EventHandler(this.phonebookButton_Click);
             // 
             // salaryCalculatorButton
             // 
@@ -72,6 +73,7 @@
             this.reminderButton.TabIndex = 3;
             this.reminderButton.Text = "HATIRLATICI";
             this.reminderButton.UseVisualStyleBackColor = true;
+            this.reminderButton.Click += new System.EventHandler(this.reminderButton_Click);
             // 
             // personalInformationButton
             // 

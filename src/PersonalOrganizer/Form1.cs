@@ -17,6 +17,7 @@ namespace PersonalOrganizer
 {
     public partial class Form1 : Form
     {
+        string stdUser = "user";
         public string exeDirectory = AppDomain.CurrentDomain.BaseDirectory;
         public Form1()
         {
@@ -39,7 +40,7 @@ namespace PersonalOrganizer
             bool checkInformation = checkUserInformations(isimTextBox.Text, soyisimTextBox.Text, adresTextBox.Text, sifreTextBox.Text, sifreTekrarTextBox.Text, telNoTextBox.Text, epostaTextBox.Text);
             if(checkInformation)
             {
-                bool isUserSaveSucceed = saveUser(isimTextBox.Text, soyisimTextBox.Text, adresTextBox.Text, sifreTextBox.Text, telNoTextBox.Text, epostaTextBox.Text);
+                bool isUserSaveSucceed = saveUser(isimTextBox.Text, soyisimTextBox.Text, adresTextBox.Text, sifreTextBox.Text, telNoTextBox.Text, epostaTextBox.Text, stdUser);
                 if (isUserSaveSucceed)
                 {
                     MessageBox.Show("Kayıt başarılı.");
@@ -111,7 +112,7 @@ namespace PersonalOrganizer
             return true;
         }
 
-        public bool saveUser(string Isim, string Soyisim, string Adres, string Sifre,string Telefon, string Mail)
+        public bool saveUser(string Isim, string Soyisim, string Adres, string Sifre, string Telefon, string Mail, string userType)
         {
             // Check if user already exists
             if (FindUserByPhone(Telefon) != null)
@@ -119,10 +120,20 @@ namespace PersonalOrganizer
                 return false; // User already exists
             }
 
-            //add this users to a csv file named users.csv it should be a csv file
-            using (StreamWriter sw = new StreamWriter(exeDirectory+"users.csv", true))
+            // Check if it's the first user being registered
+            bool isFirstUser = !File.Exists(exeDirectory + "users.csv") || new FileInfo(exeDirectory + "users.csv").Length == 0;
+
+            // Add this user to a csv file named users.csv
+            using (StreamWriter sw = new StreamWriter(exeDirectory + "users.csv", true))
             {
-                sw.WriteLine($"{Isim},{Soyisim},{Adres},{Sifre},{Telefon},{Mail},user");
+                if (isFirstUser)
+                {
+                    sw.WriteLine($"{Isim},{Soyisim},{Adres},{Sifre},{Telefon},{Mail},admin");
+                }
+                else
+                {
+                    sw.WriteLine($"{Isim},{Soyisim},{Adres},{Sifre},{Telefon},{Mail},{userType}");
+                }
             }
             return true;
         }
@@ -140,24 +151,27 @@ namespace PersonalOrganizer
             }
             string userPhone = user[4];
             string userPassword = user[3];
+            string userType = user[6];
             if (userPassword != girisSifreTextBox.Text)
             {
                 MessageBox.Show("Şifre hatalı.");
             }
             else
             {
-                UserForm userForm = new UserForm(user);
-                userForm.Show();
+                if (userType.ToLower() == "admin")
+                {
+                    // If the user is an admin
+                    AdminForm adminForm = new AdminForm(user);
+                    adminForm.Show();
+                }
+                else
+                {
+                    // If the user is not an admin
+                    UserForm userForm = new UserForm(user);
+                    userForm.Show();
+                }
             }
         }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            SalaryCalculatorForm salaryCalculatorForm = new SalaryCalculatorForm();
-            salaryCalculatorForm.Show();
-
-        }
-
 
         static string[] FindUserByPhone(string phoneNumber)
         {
@@ -183,6 +197,12 @@ namespace PersonalOrganizer
                 MessageBox.Show("Kullanıcılar dosyası bulunamadı.");
                 return null;
             }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            SalaryCalculatorForm salaryCalculatorForm = new SalaryCalculatorForm("5389371723");
+            salaryCalculatorForm.Show();
         }
     }
 }

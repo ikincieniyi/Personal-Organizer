@@ -13,3 +13,5 @@ C:\Users\zeker\Desktop\CENG2\Bahar\OOP2 Project\Personal-Organizer\src\PersonalO
 C:\Users\zeker\Desktop\CENG2\Bahar\OOP2 Project\Personal-Organizer\src\PersonalOrganizer\obj\Debug\PersonalOrganizer.notesForm.resources
 C:\Users\zeker\Desktop\CENG2\Bahar\OOP2 Project\Personal-Organizer\src\PersonalOrganizer\obj\Debug\PersonalOrganizer.ProfileForm.resources
 C:\Users\zeker\Desktop\CENG2\Bahar\OOP2 Project\Personal-Organizer\src\PersonalOrganizer\obj\Debug\PersonalOrganizer.ReminderForm.resources
+C:\Users\zeker\Desktop\CENG2\Bahar\OOP2 Project\Personal-Organizer\src\PersonalOrganizer\obj\Debug\PersonalOrganizer.AdminForm.resources
+C:\Users\zeker\Desktop\CENG2\Bahar\OOP2 Project\Personal-Organizer\src\PersonalOrganizer\obj\Debug\PersonalOrganizer.phoneBookForm.resources

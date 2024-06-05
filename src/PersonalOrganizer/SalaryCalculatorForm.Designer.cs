@@ -103,12 +103,13 @@
             "2-4 Yıl",
             "5-9 Yıl",
             "10-14 Yıl",
-            "15-20 Yıl",
+            "15-19 Yıl",
             "20 Yıl Üstü"});
             this.deneyimComboBox.Location = new System.Drawing.Point(160, 37);
             this.deneyimComboBox.Name = "deneyimComboBox";
             this.deneyimComboBox.Size = new System.Drawing.Size(223, 21);
             this.deneyimComboBox.TabIndex = 6;
+            this.deneyimComboBox.SelectedIndexChanged += new System.EventHandler(this.deneyimComboBox_SelectedIndexChanged);
             // 
             // yasanilanSehirComboBox
             // 
@@ -117,14 +118,14 @@
             "TR10: İstanbul",
             "TR51: Ankara",
             "TR31: İzmir",
-            "TR42: Kocaeli, Sakarya, Düzce, Bolu, Yalova",
-            "TR21: Edirne, Kırklareli, Tekirdağ",
-            "TR90: Trabzon, Ordu, Giresun, Rize, Artvin, Gümüşhane",
-            "TR41: Bursa, Eskişehir, Bilecik",
-            "TR32: Aydın, Denizli Muğla",
-            "TR62: Adana, Mersin",
-            "TR22: Balıkesir, Çanakkale",
-            "TR61: Antalya, Isparta, Burdur",
+            "TR42: Kocaeli-Sakarya-Düzce-Bolu-Yalova",
+            "TR21: Edirne-Kırklareli-Tekirdağ",
+            "TR90: Trabzon-Ordu-Giresun-Rize-Artvin-Gümüşhane",
+            "TR41: Bursa-Eskişehir-Bilecik",
+            "TR32: Aydın-Denizli-Muğla",
+            "TR62: Adana-Mersin",
+            "TR22: Balıkesir-Çanakkale",
+            "TR61: Antalya-Isparta-Burdur",
             "Diğer"});
             this.yasanilanSehirComboBox.Location = new System.Drawing.Point(160, 78);
             this.yasanilanSehirComboBox.Name = "yasanilanSehirComboBox";
@@ -151,14 +152,14 @@
             this.yoneticilikComboBox.FormattingEnabled = true;
             this.yoneticilikComboBox.Items.AddRange(new object[] {
             "Hiçbiri",
-            "Takım Lideri/Grup Yöneticisi/Teknik Yönetici/Yazılım Mimarı",
+            "Takım Lideri-Grup Yöneticisi-Teknik Yönetici-Yazılım Mimarı",
             "Proje Yöneticisi",
-            "Direktör/Projeler Yöneticisi ",
-            "CTO/Genel Müdür",
-            "Bilgi İşlem Sorumlusu/Müdürü (Bilgi İşlem biriminde en çok 5 bilişim personeli va" +
-                "rsa) ",
-            "Bilgi İşlem Sorumlusu/Müdürü (Bilgi İşlem biriminde 5\'ten çok bilişim personeli v" +
-                "arsa) "});
+            "Direktör-Projeler Yöneticisi",
+            "CTO-Genel Müdür",
+            "Bilgi İşlem Sorumlusu-Müdürü (Bilgi İşlem biriminde en çok 5 bilişim personeli va" +
+                "rsa)",
+            "Bilgi İşlem Sorumlusu-Müdürü (Bilgi İşlem biriminde 5\'ten çok bilişim personeli v" +
+                "arsa)"});
             this.yoneticilikComboBox.Location = new System.Drawing.Point(160, 176);
             this.yoneticilikComboBox.Name = "yoneticilikComboBox";
             this.yoneticilikComboBox.Size = new System.Drawing.Size(223, 21);
@@ -326,6 +327,7 @@
             this.Controls.Add(this.label1);
             this.Name = "SalaryCalculatorForm";
             this.Text = "SalaryCalculatorForm";
+            this.Load += new System.EventHandler(this.SalaryCalculatorForm_Load);
             this.AileDurumuGb.ResumeLayout(false);
             this.AileDurumuGb.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.cocuk18)).EndInit();

@@ -186,8 +186,8 @@ namespace PersonalOrganizer
                 return;
             }
             DeleteNote(phoneNumber, noteSelecterComboBox.SelectedItem.ToString(), notesDirectory);
-            noteSelecterComboBox.Items.Remove(noteSelecterComboBox.SelectedItem);
             notes.Remove(noteSelecterComboBox.SelectedItem.ToString());
+            noteSelecterComboBox.Items.Remove(noteSelecterComboBox.SelectedItem);
             noteViewerTextBox.Text = "";
 
         }
